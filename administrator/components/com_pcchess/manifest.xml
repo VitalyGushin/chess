@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+    <name>PCChess</name>
+    <author>PCChess Project (www.pcchess.net)</author>
+    <creationDate>December 16, 2010</creationDate>
+	<authorEmail>hartmut@eilers.net, marian.tanase@gmail.com</authorEmail>
+    <authorUrl>www.eilers.net, www.tanase.it</authorUrl>
+    <copyright>This component is copyright Robert J. Prince, released under the GNU/GPL License</copyright>
+	<license>GNU GPL V 2.0 or above</license>
+    <version>1.0.1</version>
+    <description>A Joomla component used for playing remote/mail chess.</description>
+	
+    <params>
+      <param name="lang" default="us" type="text" label="Language Shortcut" description="Frontend Language" />
+      <param name="shredder" default="0" type="text" label="Shredder Chess 0/1" description="Show link to shredder chess?" />
+      <param name="exercise" default="0" type="text" label="Chess Exercise 0/1" description="Show link to chess exercise?" />
+    </params>
+	
+    <install>
+		<sql>
+			<file driver="mysql" charset="utf8">install/install.mysql.sql</file>
+		</sql>
+    </install>
+    <uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">install/uninstall.mysql.sql</file>
+		</sql>
+    </uninstall>
+	
+	<installfile>install/install.pcchess.php</installfile>
+    <uninstallfile>install/uninstall.pcchess.php</uninstallfile>
+    
+	<files folder="components/com_pcchess">
+		<filename>smf.pcchess.com.php</filename>
+		<filename>router.php</filename>
+		<filename>pcchess.php</filename>
+		<filename>include.pcchess.php</filename>
+		<filename>exportpgn.php</filename>
+		<filename>chess.inc.php</filename>
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	
+    <administration>
+			<menu>PCChess</menu>
+		<submenu>
+			<menu act="all">Options</menu>
+		</submenu>
+
+		<files folder="administrator/components/com_pcchess">
+			<folder>css</folder>
+			<folder>install</folder>
+			<folder>language</folder>
+			<filename>admin.pcchess.php</filename>
+			<filename>changelog.php</filename>
+			<filename>config.xml</filename>	
+		</files>
+	</administration>
+</install>

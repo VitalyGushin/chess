@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="user">
+	<name>Extension User Data</name>
+	<author>Leonid Tushov</author>
+	<creationDate>11/09/2009</creationDate>
+	<copyright>Copyright (C) 2009 Tushov Leonid</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>gfk@mail.ru</authorEmail>
+	<authorUrl>tushov.ru</authorUrl>
+	<version>1.0</version>
+	<description>...</description>
+	<files>
+		<filename plugin="extusdata">extusdata.php</filename>
+	</files>
+	<params/>
+</install>

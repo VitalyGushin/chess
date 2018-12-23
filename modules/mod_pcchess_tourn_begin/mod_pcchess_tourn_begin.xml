@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.1">
+	<name>Begin Tournament Date</name>
+	<author>Hartmut Eilers, Marian Tanase</author>
+	<authorEmail>marian.tanase@gmail.com</authorEmail>
+	<authorUrl>http://www.tanase.it</authorUrl>
+	<creationDate>04/01/2011</creationDate>
+	<copyright>www.tanase.it</copyright>
+	<license>GNU/GPL</license>
+	<version>2.0.1</version>
+
+	<description>
+		<![CDATA[
+		<p><h2>PCChess Begin Tournament Date</h2></p>
+		<p>Vyvod daty poslednego turnira</p>
+		]]></description>
+
+    <files>
+        <filename>mod_pcchess_tourn_begin.xml</filename>
+        <filename module="mod_pcchess_tourn_begin">mod_pcchess_tourn_begin.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+
+	  <languages>
+		<!-- Any language files included with the module -->
+	    <language tag="en-GB">language/en-GB.mod_pcchess_notifier.ini</language>
+		<language tag="it-IT">language/it-IT.mod_pcchess_notifier.ini</language>
+		<language tag="hu-HU">language/hu-HU.mod_pcchess_notifier.ini</language>
+	</languages>
+
+    <params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+    </params>
+</install>

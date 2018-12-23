@@ -1,0 +1,7 @@
+<root>
+  <params>
+      <param name="lang" type="text" scope="com_pcchess" default="us" size="2" label="Language" description="The frontend Language for PC Chess" />
+      <param name="shredder" default="0" type="text" size="1" label="Shredder Chess 0/1" description="Show link to shredder chess?" />
+      <param name="exercise" default="0" type="text" size="1" label="Chess Exercise 0/1" description="Show link to chess exercise?" />      
+  </params>
+</root>

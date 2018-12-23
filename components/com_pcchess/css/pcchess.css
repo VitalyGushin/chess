@@ -1,0 +1,331 @@
+/* PCChess Component */
+/* this stylesheet is automatically included */
+
+
+p#backlink {
+	text-align:center;
+	margin-top:20px;
+/*	display:none; */
+}
+
+#pcchess {
+	color: #333;     /*Хз, практически черный*/
+	font-size: 12px;
+}
+
+#pcchess ul.pcc_toplinks {
+	margin: 0 0 10px 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+#pcchess li.pcc_toplinks {
+	font-size: 12px;
+	line-height: 1;
+	list-style-type: none;
+	display: inline;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	margin-right: 5px;
+	background-color: #9EB8C5;  /*хз, березовый*/
+}
+#pcchess .pcc_toplinks a, .pcc_toplinks a:visited {
+	margin-top: 0px;
+	padding: 6px;
+	color: #555;  /*хз, темный - почти черный, но прозрачнее*/
+	background-color: #f3f3f3;        /*хз*/
+	text-shadow:0px 1px 1px #999;    /*хз*/
+	border:1px solid #ccc;       /*хз*/
+}
+
+#pcchess .pcc_toplinks a:hover, .pcc_toplinks li:hover {
+	color: #000;
+	background-color:#f5f5f5;
+}
+
+#pcchess table.pcc_gamelist {
+	margin-left:0px;
+	width:100%;
+	background-color:#f6f6f6;
+	border:1px solid #000000;   /* c68c53 */ /* Цвет бордюра таблицы результатов */
+	border-collapse:collapse;
+}
+
+#pcchess th.pcc_gamelist {
+	font-size: 12px;
+	font-weight: 600;
+	color: #ffffff;    /* ad7239*/    /* Цвет шрифта строки заголовка в таблицах статистики*/
+	text-shadow:0 1px 0 #fff;
+	text-align:center;
+	background-color:#135cae; /* f8e1b8*/  /* Цвет фона строки заголовка в таблицах статистики*/
+	padding:3px;
+	width:20%;
+}
+
+#pcchess td.pcc_gamelist {
+	font-size: 12px;
+	color: #000;      /*Шрифт в таблицах*/
+	text-align:center;
+	padding:3px;
+	width:20%;
+}
+
+#pcchess tr.pcc_gamelist {
+	padding-top: 6px;
+}
+
+#pcchess table.pcc_gamelist th.pcc_gamelist_mid {
+    width:100px;
+	text-align:center;
+	background-color:#135cae; /*f8e1b8*/ /*Цвет фона заголовка в таблице плейерс*/
+	padding:3px 1px;
+	color: #fff; /*ad7239*/   /*Шрифт там же*/
+	text-shadow:0 1px 0 #fff;
+}
+#pcchess table.pcc_gamelist td.pcc_gamelist_mid {
+	width:100px;
+	text-align:center;
+}
+
+#pcchess a.pcchess_movelinkshown {
+	font-weight:bold;
+}
+
+#pcchess td.pcc_gamelist_comments {
+	font-size: 9px;
+	color: #000;
+	text-align:left;
+}
+
+#pcchess td.pcchess_movelist {
+	font-size: 12px;
+	color: #000;
+	text-align:left;
+	vertical-align: top;
+	padding-right: 3px;
+	width:35px;
+}
+
+#pcchess td.pcchess_movelist_comment {
+	font-size: 12px;
+	color: #000;
+	text-align:left;
+	vertical-align: top;
+	padding-right: 3px;
+}
+
+.pcchess_movelist_comment a {
+	background-image: url(../images/commenticon.gif);
+	background-image: url(../images/comment.png);
+	background-position: right;
+	padding-right:20px;
+	background-repeat:no-repeat;
+
+}
+
+#pcchess td.pcchess_gamedisplay {
+	margin-left:0px;
+	padding-left:0px;
+	line-height: 18px;
+	text-align:left;
+	vertical-align:top;
+	font-size: 12px;
+	color: #000;
+}
+
+#pcchess table.pcchess_gamedisplay {
+	margin-left:0px;
+	margin-top: 0px;
+	padding-left:0px;
+	border-width:0px;
+	border-style:none;
+}
+
+#pcchess td.pcchess_forminput {
+	margin-left:0px;
+	padding-left:0px;
+	border-width:0px;
+	border-style:none;
+	text-align:left;
+	vertical-align:top;
+	font-size: 12px;
+	color: #000;
+}
+
+#pcchess form.pcchess_forminput {
+	text-align:left;
+	vertical-align:top;
+	font-size: 12px;
+	color: #000;
+}
+
+#pcchess td.pcchess_formlabels {
+	text-align:right;
+	vertical-align:top;
+	font-size: 12px;
+	color: #000;
+}
+
+#pcchess form.pcchess_forkgameform {
+	text-align:center;
+	vertical-align:top;
+	font-size: 12px;
+	color: #000;
+	margin-top: 10px;
+}
+
+#pcchess td.pcchess_forminstruction {
+	text-align:center;
+	vertical-align:top;
+	font-size: 10px;
+	color: #000;
+}
+
+#pcchess p.pcchess_gamenav {
+	text-align:center;
+}
+
+#pcchess span.pcchess_error {
+	text-align:center;
+	color:#F00;
+}
+
+#pcchess td.pcchess_exportlink {
+	text-align:center;
+	font-size:10px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#pcchess a.pcchess_exportlink {
+	font-size:10px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.activegames {
+
+}
+.activegames h2 {
+	font-size:20px;
+}
+
+.avviso {
+margin-top:20px;
+color:red;
+font-weight:bold;
+}
+
+.you2 {
+margin-top:30px;}
+
+
+.space{
+margin-bottom:30px;}
+
+.table_out {
+border:1px solid #000;    /*ccc*/ /*Цвет внешнего бордюра доски*/
+border-collapse:collapse;}
+
+textarea#styled{
+	width:400px;
+	height:50px;
+	border:1px solid #000000;  /*c68c53*/  /*Цвет оконтовки поля ввода комментариев*/
+	padding:5px;
+	background:#f6f6f6 url(../images/comment_user.png) 98% 90% no-repeat;} /*f8e1b8*/
+
+
+.info, .comments, .move, .notify{
+margin-top:5px;
+width:400px;}
+
+.info{
+color:#000;    /*744c27*/  /*Цвет текста в поле инфо*/
+background-color:#f6f6f6; /*f8e1b8*/
+padding:0px 3px 8px 10px;
+border:1px solid #000;} /*c68c53*/
+
+.info ul{
+margin:0;}
+
+.info p, .comments p, .move p{
+font-weight:bold;
+margin-bottom:1px;
+margin-top:10px;}
+
+div.frame{
+	border:1px solid #000;   /*eee*/ /*Бордюр в поле записи ходов*/
+	background-color:#f6f6f6;  /*f9f9f9*/
+	height:418px;
+	width:140px;
+	overflow:auto;}
+
+div.comentariu{
+border:1px solid #ccc;   /*хз*/
+height:80px;
+width:550px;}
+
+div.comentariu p{
+margin:0;}
+
+pre{
+border:1px solid #e1e1e1; /*хз*/
+padding:5px;
+background-color:#f9f9f9;}  /*хз*/
+
+.header-top {
+/*	background-image: url(../images/chess-image.png); */     /*Картинка сверху*/
+	background-repeat:no-repeat;
+	background-position: right;
+	height:0px;  /*112*/     /*Высота*/
+	}
+
+.header-top  h1{
+	margin:10px 0 0 0;
+	color:#000000;     /*d65700*/  /*Заголовок PCChess (УБРАТЬ!)*/
+	text-shadow:1px 1px 1px #fff; /*666*/   /*Цвет тени*/
+	}
+.header-top  p{
+	margin:0;
+	}
+
+a.pcc-button {
+/* Sliding right image */
+    background: transparent url('../images/button3_right.png') no-repeat scroll top right;
+	display: block;
+	float: left;
+	height: 30px;
+	margin-right: 6px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #fff; /*Цвет надписи кнопки (000)*/
+	font-family: Arial,Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-shadow:0px 1px 1px #000; /*Цвет тени (fff)*/
+	letter-spacing:1px;
+}
+
+a.pcc-button span {
+/* Background left image */
+	background: transparent url('../images/button3_left.png') no-repeat;
+	display: block;
+	line-height: 30px;
+	padding: 0px 5px 5px 10px;
+}
+
+a.pcc-button:hover span{
+	text-decoration:none;
+	color:red; /*Текст надписи кнопки при наведении (000)*/
+	text-shadow:0px -1px 1px #000; /*Цвет тени (fff)*/
+}
+
+#pcc_nav{
+	margin-bottom:50px;}
+
+p.started_date{
+}
+
+h2.header1{
+margin-bottom:1px;}
